@@ -119,6 +119,29 @@ body {
     text-align: center;
     text-decoration: underline;
 }
+/* bonus section */
+.bonus{
+    text-align: center;
+}
+.btn-load{
+    margin-top: 10px;
+    
+}
+.premium-text{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 50px;
+}
+.pr-img{
+    display: flex;
+    justify-content: center;
+    gap:20px ;
+}
+.pr-title{
+   text-align: center;
+   text-decoration: underline;
+}
 
 
 
