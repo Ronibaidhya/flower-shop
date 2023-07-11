@@ -114,6 +114,8 @@ body {
     height: 428px;
 }
 .pink-tree-msg{
+    font-size: 24px;
+    font-weight: 500px ;
     text-align: center;
     text-decoration: underline;
 }
