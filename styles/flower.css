@@ -4,6 +4,7 @@ body {
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
 }
+
 .btn-primary {
     border-radius: 5px;
     background: #E55473;
@@ -25,10 +26,14 @@ body {
 .banner {
     display: flex;
     justify-content: space-between;
-    gap: 100px;
+    gap: 150px;
     align-items: center;
     /* padding: 50px 200px 0px 240px; */
-    margin:0px 200px 0px 200px;
+    margin: 0px 150px 0px 200px;
+}
+
+.banner-content {
+    padding: 0px 50px 0px 0px;
 }
 
 .banner-title {
@@ -46,11 +51,61 @@ body {
     margin-top: 20px;
     margin-bottom: 0px;
 }
-.btn-shop-now{
+
+.btn-shop-now {
     margin-top: 30px;
 
 }
-.banner-img{
+
+.banner-img {
     margin-top: 50px;
     margin-right: -50px;
+}
+
+/* hot deal section */
+
+.bonus {
+    height: 500px;
+}
+
+.section-2 {
+    background: rgba(229, 84, 115, 0.05);
+}
+
+.hot-deal {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 180px;
+    margin: 0px 420px 0px 400px;
+    padding: 100px 0px 100px 0px;
+
+}
+
+.hot-deal-section {
+    text-align: center;
+}
+
+.hot-deal-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 0px;
+}
+
+.hot-deal-msg {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.sign-up-btn {
+    margin-top: 40px;
+}
+
+.red {
+    color: #E55473;
 }
